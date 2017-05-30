@@ -1,6 +1,6 @@
 # docsify-ssr-demo
 
-See https://docsfiy.now.sh
+See https://docsify.now.sh
 
 ## Deploy
 
