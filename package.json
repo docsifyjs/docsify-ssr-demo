@@ -1,0 +1,24 @@
+{
+  "name": "docsify-ssr-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "license": "MIT",
+  "scripts": {
+    "start": "docsify start . -c ssr.config.js",
+    "deploy": "now -p"
+  },
+  "now": {
+    "alias": "docsify",
+    "env": {
+      "NODE_ENV": "production",
+      "DEBUG": "docsify"
+    }
+  },
+  "dependencies": {
+    "docsify-cli": "^4.1.6"
+  },
+  "devDependencies": {
+    "now": "^6.2.0"
+  }
+}
