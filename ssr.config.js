@@ -1,5 +1,6 @@
 module.exports = {
   template: './ssr.html',
+  maxAge: 60 * 60 * 1000,
   config: {
     basePath: 'https://docsify.js.org/',
     alias: {
