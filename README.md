@@ -1,6 +1,6 @@
 # docsify-ssr-demo
 
-See https://docsify.now.sh
+:warning: Docsify SSR is experimental, incomplete, and work in progress. Plugins and some features of Docsify do not work. Not yet recommended. 
 
 ## Deploy
 
